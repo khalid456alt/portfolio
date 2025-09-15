@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm py-3 fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Khalid Bahmad</a>
+    
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="d-none d-lg-flex gap-3">
+                <a href="#"><img src="./images/icones/behance-2 1.png" alt="behance" width="24"></a>
+                <a href="#"><img src="./images/icones/medium-4 1.png" alt="medium" width="24"></a>
+                <a href="#"><img src="./images/icones/twitter-6 1.png" alt="twitter" width="24"></a>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Hero -->
+    <section class="container py-5 px-3 px-md-0 custom-height d-flex align-items-center SEC1">
+        <div class="row align-items-center w-100">
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <img src="./images/Image.png" alt="Khalid" class="hero-img img-fluid">
+            </div>
+    
+            <div class="col-md-6 text-center text-md-start order-2 order-md-1">
+                <h5>Hello, I’m Khalid,</h5>
+                <h1 class="fw-bold display-4 text-dark">Full-stack <br>developer</h1>
+                <p class="mb-4">Développeur Full Stack spécialisé en JavaScript, Node.js et Python</p>
+                <button class="resume-btn">Resume</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- About -->
+    <section class="container py-5 px-3 px-md-0">
+        <h2 class="section-title">about.</h2>
+        <p>Je suis Khalid Bahmad, un développeur / designer passionné par la création d’expériences utilisateur intuitives et esthétiques. Avec plusieurs années d’expérience dans le domaine de la technologie, je mélange compétences techniques et créativité pour apporter des solutions web modernes.</p>
+        <div class="row align-items-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-10">
+                <ul class="list-unstyled mt-4">
+                    <li class="mb-4">
+                        <span class="fw-bold text-primary">• Compétences :</span><br>
+                        <small>Maîtrise de HTML, CSS, JavaScript, frameworks modernes, design responsive, et sens aigu du détail dans le design graphique.</small>
+                    </li>
+                    <li class="mb-4">
+                        <span class="fw-bold text-primary">• Ce que j’ai accompli :</span><br>
+                        <small>Réalisation de sites web performants, optimisation de l’expérience utilisateur, intégration aboutie entre design et code afin de créer des interfaces fluides.</small>
+                    </li>
+                    <li>
+                        <span class="fw-bold text-primary">• Mon objectif :</span><br>
+                        <small>Continuer à apprendre de nouvelles technologies, repousser les limites du design, et collaborer sur des projets à fort impact, tout en plaçant l’utilisateur au centre.</small>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Certificats -->
+    <section class="container py-5 px-3 px-md-0">
+        <h2 class="section-title">certificat.</h2>
+        <p>Des certificats obtenus en parallèle de mes études :</p>
+        <div id="certificates-container" class="row mt-4 g-4">
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section class="container py-5 px-3 px-md-0">
+        <h2 class="section-title">Work.</h2>
+        <p>Des exomple de travaille en parallèle de mes études :</p>
+        <div id="work-container" class="row mt-4 g-4">
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container py-5 px-3 px-md-0">
+        <h2 class="section-title">contact.</h2>
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+                <img src="./images/unsplash_2Xht5D22y0I.png" class="contact-img img-fluid" alt="Contact">
+            </div>
+            <div class="col-md-8">
+                <p>Tu as un projet, une idée ou simplement envie d’échanger ?<br> N’hésite pas à me contacter 👇</p>
+                <ul class="list-unstyled mt-3">
+                    <li><i class="bi bi-envelope me-2"></i> khalidbahmad.dev@gmail.com</li>
+                    <li><i class="bi bi-linkedin me-2"></i> <a href="https://www.linkedin.com/in/khalid-bahmad-5a06ab349/" target="_blank" rel="noopener noreferrer">linkedin.com/in/khalid-bahmad</a></li>
+                    <li><i class="bi bi-instagram me-2"></i> <a href="https://www.instagram.com/khalid.___34/?hl=en" target="_blank" rel="noopener noreferrer">instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
